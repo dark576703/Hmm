@@ -1,18 +1,17 @@
 module.exports.config = {
-    name: "info",
-    version: "1.0.0",
-    permission: 0,
-    credits: "nazrul",
-    prefix: true,
-    description: "",
-    category: "prefix",
-    usages: "",
-    cooldowns: 5,
-    dependencies: 
-	{
-    "request":"",
-    "fs-extra":"",
-    "axios":""
+ name: "info",
+ version: "1.0.1", 
+ hasPermssion: 0,
+ credits: "nazrul",
+ description: "Admin and Bot info.",
+ commandCategory: "...",
+	usePrefix: true,
+ cooldowns: 1,
+ dependencies: 
+ {
+	"request":"",
+	"fs-extra":"",
+	"axios":""
   }
 };
 module.exports.run = async function({ api,event,args,client,Users,Threads,__GLOBAL,Currencies }) {
