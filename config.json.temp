@@ -7,14 +7,14 @@
     "autoClean": false,
     "commandDisabled": [],
     "eventDisabled": [],
-    "EMAIL": "mohammadayan55505@gmail.com",
-    "PASSWORD": "ayanfcal22",
+    "EMAIL": "",
+    "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "AYAN-BOT",
+    "BOTNAME": "bal",
     "PREFIX": "/",
     "ADMINBOT": [
-        "61558522534273",
-        "61558522534273"
+        "",
+        ""
     ],
     "DATABASE": {
         "sqlite": {
