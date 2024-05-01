@@ -2,7 +2,7 @@ const fs = require("fs");
 const axios = require("axios");
 
 module.exports.config = {
-	name: "help",
+	name: "help3",
 	version: "1.0.0",
 	hasPermission: 0,
 	credits: "nazrul",//dont change credits
