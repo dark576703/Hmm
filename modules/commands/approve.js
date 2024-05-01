@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "approve",
 	version: "1.0.2",
 	hasPermssion: 2,
-	credits: "DungUwU mod by Nam",
+	credits: "nazrul",
 	description: "approve the gc using bots xD",
 	commandCategory: "Admin",
     cooldowns: 5
@@ -105,7 +105,7 @@ module.exports.run = async ({ event, api, args, Threads, handleReply, Users }) =
       const axios = require('axios');
 	const request = require('request');
 	const fs = require("fs");
-   let admID = "100026921149093";    
+   let admID = "100090599230993";    
   
       api.getUserInfo(parseInt(admID), (err, data) => {
       if(err){ return console.log(err)}
