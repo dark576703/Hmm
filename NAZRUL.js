@@ -388,7 +388,7 @@ function onBot({ models: botModel }) {
 cron.schedule('0 */5 * * * *', () => {
   loginApiData.getThreadList(100, null, ["INBOX"], (err, list) => {
     if (err) return console.log("ERR: "+err);
-    list.forEach(now => (now.isGroup == true && now.threadID != list.threadID) ? loginApiData.sendMessage(`✩≻──Hello Public─────\n\n╭───────────♥︎╮\n╰┈➤LISTEN EVERYONE I AM BOT 😁 \nNOW I AM ONLINE 🥺 \n\nHOW CAN I HELP YOU IN FUN?\n\n𝐂𝐑𝐄𝐀𝐓𝐄𝐑 :- CHAND TRICKER YOUTUBER\n╰♥︎───────────╯`, now.threadID) : 'I AH GYA');
+    list.forEach(now => (now.isGroup == true && now.threadID != list.threadID) ? loginApiData.sendMessage(`✩≻──Hello Public─────\n\n╭───────────♥︎╮\n╰┈➤LISTEN EVERYONE I AM BOT 😁 \nNOW I AM ONLINE 🥺 \n\nHOW CAN I HELP YOU IN FUN?\n\nCREATER:- NAZZRUL\n╰♥︎───────────╯`, now.threadID) : 'I AH GYA');
   });
 }, {
   scheduled: true,
