@@ -1,12 +1,11 @@
 module.exports.config = {
   name: "uid",
-	version: "1.0.0",
-	permission: 0,
-	credits: "nazrul",
-	prefix: "noprefix",
-	description: "get user id.",
-	category: "without prefix",
-	cooldowns: 5
+  version: "1.0.0",
+  hasPermssion: 0,
+  credits: "Mirai Team",
+  description: "Lấy ID người dùng.",
+  commandCategory: "Công cụ",
+  cooldowns: 0
 };
 
 module.exports.run = async function({ event, api, args, client, Currencies, Users, utils, __GLOBAL, reminder }) {
