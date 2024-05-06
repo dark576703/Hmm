@@ -1,5 +1,5 @@
 /**
-* @EMON HAWLADAR
+* @NAZRUL 
 * @warn Do not edit code or edit credits
 * @Dont Change This Credits Otherwisw Your Bot Lol
 */
@@ -7,7 +7,7 @@ module.exports.config = {
   name: "cat",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "EMon-BHai",
+  credits: "nazrul",
   usePrefix: false,
   description: "Dont Change This Credits Otherwisw Your Bot Lol",
   usages: "[ask]",
