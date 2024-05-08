@@ -2,10 +2,10 @@ module.exports.config = {
   name: "pp",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN",
+  credits: "nazrul",
   description: "",
   commandCategory: "Tools",
-  usages: "",
+  usages: "user",
   cooldowns: 3,
   dependencies: {
       "request": "",
