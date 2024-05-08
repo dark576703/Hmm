@@ -1,8 +1,8 @@
 module.exports.config = {
-    name: "ckbot",
+    name: "ck",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "ðð«ð¢ð²ðšð§ð¬ð¡ ð‘ðšð£ð©ð®ð­",
+    credits: "nazrul­",
     description: "DESCRIPTION ABOUT BOT",
     commandCategory: "Media",
     usages: "",
@@ -79,7 +79,7 @@ if (args[0] == "user") {
     let name = await data[id].name;
     var sex = await data[id].gender;
     var gender = sex == 2 ? "Male" : sex == 1 ? "Female" : "Tran Duc Bo";
-    var callback = () => api.sendMessage({body:`Name: ${name}` + `\nUser url: ${url}` + `\nUser name: ${sn}\nUID: ${id}\nGender: ${gender}\nMake friends with bots: ${b}`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"),event.messageID); 
+    var callback = () => api.sendMessage({body:`𝗜𝗗 𝗡𝗔𝗠𝗘: ${name}` + `\n𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗟𝗜𝗡𝗞: ${url}` + `\n𝗨𝗦𝗘𝗥 𝗡𝗔𝗠𝗘: ${sn}\n𝗨𝗜𝗗: ${id}\n𝗚𝗘𝗡𝗗𝗘𝗥: ${gender}\n𝗠𝗔𝗞𝗘 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 𝗪𝗜𝗧𝗛 𝗕𝗢𝗧𝗦: ${b}`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"),event.messageID); 
        return request(encodeURI(`https://graph.facebook.com/${id}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
    }
     else {
@@ -93,7 +93,7 @@ if (args[0] == "user") {
     let name = await data[mentions].name;
     var sex = await data[mentions].gender;
     var gender = sex == 2 ? "Male" : sex == 1 ? "Female" : "Tran Duc Bo";
-    var callback = () => api.sendMessage({body:`Name: ${name}` + `\nPersonal URL: ${url}` + `\nðŸ’¦User name: ${sn}\nUID: ${mentions}\nSex: ${gender}\nMake friends with bots: ${b}`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"),event.messageID);   
+    var callback = () => api.sendMessage({body:`𝗜𝗗 𝗡𝗔𝗠𝗘: ${name}` + `\n𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗟𝗜𝗡𝗞: ${url}` + `\n𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘: ${sn}\n𝗨𝗜𝗗: ${mentions}\n𝗦𝗘𝗫: ${gender}\n𝗠𝗔𝗞𝗘 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 𝗪𝗜𝗧𝗛 𝗕𝗢𝗧𝗦: ${b}`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"),event.messageID);   
        return request(encodeURI(`https://graph.facebook.com/${mentions}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
     }
     else {
@@ -104,9 +104,9 @@ if (args[0] == "user") {
     let name = await data[args[1]].name;
     var sex = await data[args[1]].gender;
     var gender = sex == 2 ? "Name" : sex == 1 ? "Female" : "Tran Duc Bo";
-    var callback = () => api.sendMessage({body:`Name: ${name}` + `\nPersonal URL: ${url}` + `\nUser name: ${sn}\nUID: ${args[1]}\nGender: ${gender}\nMake friends with bots: ${b}`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"),event.messageID);   
+    var callback = () => api.sendMessage({body:`𝗜𝗗 𝗡𝗔𝗠𝗘: ${name}` + `\n𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗟𝗜𝗡𝗞: ${url}` + `\n𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘: ${sn}\n𝗨𝗜𝗗: ${args[1]}\n𝗚𝗘𝗡𝗗𝗘𝗥: ${gender}\n𝗠𝗔𝗞𝗘 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 𝗪𝗜𝗧𝗛 𝗕𝗢𝗧𝗦: ${b}`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"),event.messageID);   
        return request(encodeURI(`https://graph.facebook.com/${args[1]}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
     }
      }
      }
-      }
+                               }
