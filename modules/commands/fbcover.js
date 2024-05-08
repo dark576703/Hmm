@@ -1,8 +1,8 @@
 module.exports.config = {
-name: "fbcover",
+name: "covr",
 version: "1.0.0",
 hasPermssion: 0,
-credits: "MR CHAND",
+credits: "Nazrul",
 description: "Create a facebook cover photo",
 commandCategory: "game",
 cooldowns: 0,
