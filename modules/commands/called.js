@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "callad",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "NTKhang, ManhG Fix Get",
+	credits: "nazrul",
 	description: "Report bot's error to admin or comment",
 	commandCategory: "group",
 	usages: "[Error encountered or comments]",
