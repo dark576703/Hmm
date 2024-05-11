@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "qr",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "Mirai Team",
+	credits: "NAZRUL",
 	description: "",
 	commandCategory: "other",
 	usages: "[text]",
