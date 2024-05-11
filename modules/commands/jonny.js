@@ -2,7 +2,7 @@ module.exports.config = {
         name: "jonny",
         version: "1.0.1",
         hasPermssion: 0,
-        credits: "Mr Chand",
+        credits: "NAZRUL",
         description: "",
         commandCategory: "edit-img",
         usages: " [text]",
