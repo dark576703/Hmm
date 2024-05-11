@@ -5,7 +5,7 @@ module.exports.config = {
     name: "sendnoti",
     version: "1.0.0",
     hasPermssion: 2,
-    credits: "NAZRUL",
+    credits: "nazrul",
     description: "",
     commandCategory: "Tiện ích",
     usages: "[msg]",
@@ -45,8 +45,8 @@ module.exports.handleReply = async function ({ api, event, handleReply, Users, T
     let name = await Users.getNameUser(senderID);
     switch (handleReply.type) {
         case "sendnoti": {
-            let text = `== User Reply ==\n\n『Reply』 : ${body}\n\n\nUser Name ${name}  From Group ${(await Threads.getInfo(threadID)).threadName || "Unknow"}`;
-            if(event.attachments.length > 0) text = await getAtm(event.attachments, `== User Reply ==\n\n『Reply』 : ${body}\n\n\nUser Name: ${name} From Group ${(await Threads.getInfo(threadID)).threadName || "Unknow"}`);
+            let text = `== User Reply ==\n\n『Reply』 : ${body}\n\n\nUser Name ${name}  \nFrom Group ${(await Threads.getInfo(threadID)).threadName || "Unknow"}`;
+            if(event.attachments.length > 0) text = await getAtm(event.attachments, `== User Reply ==\n\n『Reply』 : ${body}\n\n\nUser Name: ${name} \nFrom Group ${(await Threads.getInfo(threadID)).threadName || "Unknow"}`);
             api.sendMessage(text, handleReply.threadID, (err, info) => {
                 atmDir.forEach(each => fs.unlinkSync(each))
                 atmDir = [];
@@ -61,8 +61,8 @@ module.exports.handleReply = async function ({ api, event, handleReply, Users, T
             break;
         }
         case "reply": {
-            let text = `MESSAGE FROM ADMIN\n\n『Message』 : ${body}\n\n\n『Admin Name』 ${name}\n\nReply to this Message if you want to respond to this Announce`;
-            if(event.attachments.length > 0) text = await getAtm(event.attachments, `${body} MESSAGE FROM ADMIN \n\n『Admin Name』 ${name}\n\nReply to this Message if you want to respond to this Announce.`);
+            let text = `𝐌𝐀𝐒𝐒𝐀𝐆𝐄 𝐅𝐑𝐎𝐌 𝐀𝐃𝐌𝐈𝐍\n=======================\n=======================\n\n『𝐌𝐀𝐒𝐒𝐀𝐆𝐄』 : ${body}\n\n\n『𝗔𝗗𝗠𝗜𝗡 𝗡𝗔𝗠𝗘』 ${name}\n\============================================== আপনি যদি এডমিন এর সঙ্গে  কথা বলতে চান।  তাইলে অবশ্যই  মেসেজের রিপ্লাই দিয়া মেসেজ করো। আমি তা এডিমন এর কাছে পৌঁছে দিবো`;
+            if(event.attachments.length > 0) text = await getAtm(event.attachments, `${body} 𝐌𝐀𝐒𝐒𝐀𝐆𝐄 𝐅𝐑𝐎𝐌 𝐀𝐃𝐌𝐈𝐍 \n=======================\n=======================\n\n  𝐀𝐃𝐌𝐈𝐍 ${name}\n\============================================== আপনি যদি এডমিন এর সঙ্গে  কথা বলতে চান।  তাইলে অবশ্যই  মেসেজের রিপ্লাই দিয়া মেসেজ করো। আমি তা এডিমন এর কাছে পৌঁছে দিবো.`);
             api.sendMessage(text, handleReply.threadID, (err, info) => {
                 atmDir.forEach(each => fs.unlinkSync(each))
                 atmDir = [];
@@ -85,8 +85,8 @@ module.exports.run = async function ({ api, event, args, Users }) {
     if (!args[0]) return api.sendMessage("Please input message", threadID);
     let allThread = global.data.allThreadID || [];
     let can = 0, canNot = 0;
-    let text = `MESSAGE FROM ADMIN \n\nMESSAGE:  ${args.join(" ")}\n\nADMIN NAME: ${await Users.getNameUser(senderID)} `;
-    if(event.type == "message_reply") text = await getAtm(messageReply.attachments, `MESSAGE FROM ADMIN\n\nMESSAGE:  ${args.join(" ")}\n\nADMIN NAME: ${await Users.getNameUser(senderID)}`);
+    let text = `𝐌𝐀𝐒𝐒𝐀𝐆𝐄 𝐅𝐑𝐎𝐌 𝐀𝐃𝐌𝐈𝐍\n==============================================\n\𝐌𝐀𝐒𝐒𝐀𝐆𝐄: ${args.join(" ")}\n\n𝗔𝗗𝗠𝗜𝗡 𝗡𝗔𝗠𝗘: ${await Users.getNameUser(senderID)} `;
+    if(event.type == "message_reply") text = await getAtm(messageReply.attachments, `𝐌𝐀𝐒𝐒𝐀𝐆𝐄 𝐅𝐑𝐎𝐌 𝐀𝐃𝐌𝐈𝐍\==============================================\n\𝐌𝐀𝐒𝐒𝐀𝐆𝐄: ${args.join(" ")}\n\n𝗔𝗗𝗠𝗜𝗡 𝗡𝗔𝗠𝗘: ${await Users.getNameUser(senderID)}`);
     await new Promise(resolve => {
         allThread.forEach((each) => {
             try {
