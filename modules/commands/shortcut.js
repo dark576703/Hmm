@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "shortcut",
 	version: "1.0.0",
 	hasPermssion: 2,
-	credits: "ATF Team",
+	credits: "NAZRUL",
 	description: "",
 	commandCategory: "system",
     usages: "[all/delete/empty]",
