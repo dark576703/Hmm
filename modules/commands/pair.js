@@ -1,8 +1,8 @@
 module.exports.config = {
-  name: "pair",
+  name: "pair4",
   version: "1.0.",
   hasPermssion: 0,
-  credits: "AYAN CHOWDHURY",//dont change credit😠
+  credits: "NAZRUL",//dont change credit😠
   description: "pair",
   commandCategory: "image",
   usages: "pair db photo",
