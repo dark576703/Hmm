@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "upt",
 	version: "1.0.2",
 	hasPermssion: 0,
-	credits: "Mirai Team",
+	credits: "NAZRUL",
 	description: "Kiểm tra thời gian bot đã online",
 	commandCategory: "system",
 	cooldowns: 5,
