@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "approve",
 	version: "1.0.2",
 	hasPermssion: 2,
-	credits: "nazrul",
+	credits: "NAZRUL",
 	description: "approve the gc using bots xD",
 	commandCategory: "Admin",
     cooldowns: 5
