@@ -1,8 +1,8 @@
 module.exports.config = {
-  name: "st16",
+  name: "ismamik",
   version: "3.0.8",
   hasPermssion: 0,
-  credits: "Islamick Chat",  //Please Don't change the credit
+  credits: "NAZRUL",  //Please Don't change the credit
   description: "randomimg",
   commandCategory: "img",
   usages: "random",
