@@ -2,7 +2,7 @@ module.exports.config = {
   name: "uid",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Mirai Team",
+  credits: "NAZRUL",
   description: "Lấy ID người dùng.",
   commandCategory: "Công cụ",
   cooldowns: 0
