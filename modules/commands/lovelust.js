@@ -5,7 +5,7 @@ module.exports.config = {
   name: "lovetest",
   version: "6.0.0",
   hasPermission: 0,
-  credits: "Islamick Chat",
+  credits: "NAZRUL",
   description: "Check your love tast % and chances of a successful love relationship!",
   commandCategory: "Fun",
   usages: ["/love [your_name] [partner_name]"],
