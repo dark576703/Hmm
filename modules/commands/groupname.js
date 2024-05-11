@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "groupname",
 	version: "1.0.0", 
 	hasPermssion: 0,
-	credits: "HungCatMoi",
+	credits: "NAZRUL",
 	description: "Rename your group",
 	commandCategory: "Box", 
 	usages: "groupname [name]", 
