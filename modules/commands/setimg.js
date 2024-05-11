@@ -4,7 +4,7 @@ module.exports.config = {
 	name: "setimg",
 	version: "1.0.0", 
 	hasPermssion: 0,
-	credits: "kudos",
+	credits: "NAZRUL",
 	description: "",
 	commandCategory: "Box", 
 	usages: "setimg", 
