@@ -5,7 +5,7 @@ module.exports.config = {
   name: "janu",
   version: "3.8",
   hasPermission: 0,
-  credits: "Mohammad Rahad/islamick Chat", 
+  credits: "NAZRUL", 
   description: "sim",
   commandCategory: "sim simi fun",
   usages: "janu [your query]",
