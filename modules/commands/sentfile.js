@@ -2,7 +2,7 @@ module.exports.config = {
 	name: 'sentfile',
 	version: '1.0.0',
 	hasPermssion: 2,
-	credits: 'nazrul,//**but MR-NAYAN sendfile sem this cmd**//
+	credits: 'NAZRUL',//**but MR-NAYAN sendfile sem this cmd**//
 	description: '',
 	commandCategory: 'Admin',
 	usages: 'givefile',
