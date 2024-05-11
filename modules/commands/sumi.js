@@ -2,7 +2,7 @@ module.exports.config = {
     name: "sumi",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "nazrul",
+    credits: "NAZRUL",
     description: "Talk to sim",
     prefix: false,
     category: "sim",
