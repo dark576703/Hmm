@@ -2,7 +2,7 @@ module.exports.config = {
     name: "yesorno",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "Prince Sanel",
+    credits: "NAZRUL",
     description: "provide a question and randomly yes or no",
     commandCategory: "random",
     usages: "[text]",
