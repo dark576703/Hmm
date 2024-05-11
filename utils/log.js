@@ -30,7 +30,7 @@ module.exports.loader = (data, option) => {
     console.log(chalk.bold.hex(randomColor()).bold(" [ NAZRUL ISLAM ] ") + data+chalk.bold.hex("5EFF00")("\n✧➜  ✧ ✧ ✧ ✧ ✧ ✧ NAZRUL ISLAM LISY (👑)✧ ✧ ✧ ✧ ✧ ✧ ✧ ✧ ✧" ));
       break;
     default:
-      console.log(chalk.bold.hex(randomColor()).bold(" [ NAZRUL 10x ] ") + chalk.bold.hex(randomColor()).bold(data) +chalk.bold.hex("FFF0000")("\n✧➜  ✧ ✧ ✧ ✧ ✧ ✧ NAZRUL ISLAM LIST (👑)✧ ✧ ✧ ✧ ✧ ✧ ✧ ✧ ✧" ));
+      console.log(chalk.bold.hex(randomColor()).bold(" [ NAZRUL 9X ] ") + chalk.bold.hex(randomColor()).bold(data) +chalk.bold.hex("FFF0000")("\n✧➜  ✧ ✧ ✧ ✧ ✧ ✧ NAZRUL ISLAM LIST (👑)✧ ✧ ✧ ✧ ✧ ✧ ✧ ✧ ✧" ));
       break;
   }
 }
