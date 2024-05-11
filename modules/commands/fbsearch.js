@@ -2,7 +2,7 @@ module.exports.config = {
   name: "fbsearch",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "chinhle",
+  credits: "nazrul",
   description: "Tìm kiếm người dùng facecbook", //nhập thứ bạn muốn
   commandCategory: "tiện ích", //Phần hiển thị trên help
   usages: "[ tên facebook ]", //cách sử dụng
