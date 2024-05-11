@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "mark",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "MewMew mod By hungdz30cm",
+	credits: "NAZRUL",
 	description: "",
 	commandCategory: "general",
 	usages: "mark [text]",
