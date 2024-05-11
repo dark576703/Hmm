@@ -1,9 +1,9 @@
 /** I am doing this coding with a lot of difficulty, please don't post it yourself¯\_(ツ)_/¯ **/
 module.exports.config = {
-  name: "Shtvdo",
+  name: "Shtoryvideo",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN",
+  credits: "NAZRUL",
   description: "ISLAMIC VEDIO",
   commandCategory: "Hình ảnh",
   usages: "sad vedio",
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["𝐀𝐘𝐀𝐍- 𝐕𝐈𝐃𝐄𝐎 - 🥀🥰"];
+   var hi = ["NAZRUL VIDEO"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
