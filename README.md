@@ -19,7 +19,8 @@
 - [📸 **Screenshots**](#-screenshots)
 - [✨ **Copyright (C)**](#-copyright-c)
 - [📜 **License**](#-license)
- href="https://www.facebook.com/profile.php?id=100090599230993&mibextid=kFxxJD" style="color: black;">Nazrul ISLAM 🚀</a></h3></div>
+ FACEBOK
+https://www.facebook.com/profile.php?id=100090599230993&mibextid=kFxxJD"
 
 <img align="center" src="https://i.imgur.com/AkCns7z.jpeg"/>
 
@@ -27,7 +28,7 @@
 🔹NAZRUL ISLAM
 
 
-# Editing NAZRUL ISLAM
+# Editing NAZRUL 
 
 # NAZRUL-SUPPER-ROBOT real owner NAZRUL ISLAM-!!🥀
 
