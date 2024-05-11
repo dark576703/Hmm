@@ -3,7 +3,7 @@ module.exports.config = {
   name: "/",
     version: "1.0.1",
   hasPermssion: 0,
-  credits: "juswa", 
+  credits: "NAZRUL", 
   description: "no prefix",
   commandCategory: "No command marks needed",
   usages: "Yo Yo",
@@ -18,7 +18,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         attachment: fs.createReadStream(__dirname + `/noprefix/.`)
       }
       api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🙄", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🥀", event.messageID, (err) => {}, true)
     }
   }
   module.exports.run = function({ api, event, client, __GLOBAL }) {
