@@ -7,10 +7,10 @@ const fontsInfo = 28
 const colorName = "#00FFFF"
 
 module.exports.config = {
-  name: "fbpost2",
+  name: "fbpost",
   version: "7.3.1",
   hasPermssion: 0,
-  credits: "𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗖𝗵𝗮𝘁 𝗕𝗼𝘁",
+  credits: "nazrul",
   description: "Facebook Post",
   commandCategory: "Edit-Img",
   usages: "@mention = text",
