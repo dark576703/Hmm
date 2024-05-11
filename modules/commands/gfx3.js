@@ -1,4 +1,4 @@
-var dev = "CHAND";
+var dev = "NAZRUL";
 module.exports.config = {
   name: "gfx3",
   version: "1.0.1",
