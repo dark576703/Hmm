@@ -7,7 +7,7 @@ module.exports.config = {
   version: '1.0.0',
   hasPermission: 0,
   usePrefix: true,
-  credits: 'rickciel api sensui',
+  credits: 'NAZRUL',
   description: 'Download tiktok video without watermark',
   commandCategory: 'Tools',
   usages: '<TikTok Video URL>',
