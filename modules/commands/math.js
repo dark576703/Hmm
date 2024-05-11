@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "math",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "Mirai Team",
+	credits: "NAZRUL",
 	description: "",
 	commandCategory: "Other",
 	usages: "math 1 + 2",
