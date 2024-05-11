@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "god",
 	eventType: ["log:unsubscribe","log:subscribe","log:thread-name"],
 	version: "1.0.0",
-	credits: "team atf",
+	credits: "Mirai Team",
 	description: "Record bot activity notifications!",
     envConfig: {
         enable: true
@@ -12,11 +12,11 @@ module.exports.config = {
 module.exports.run = async function({ api, event, Threads }) {
     const logger = require("../../utils/log");
     if (!global.configModule[this.config.name].enable) return;
-    var formReport =  "💸💸💸 Bot Notification 💸💸💸" +
-                        "\n\n💜 Thread mang ID: " + event.threadID +
-                        "\n😃 Action: {task}" +
-                        "\n😇 Action created by userID: " + event.author +
-                        "\n🥺 " + Date.now() +" 🙄",
+    var formReport =  "=== Bot Notification ===" +
+                        "\n\n» Thread mang ID: " + event.threadID +
+                        "\n» Action: {task}" +
+                        "\n» Action created by userID: " + event.author +
+                        "\n» " + Date.now() +" «",
         task = "";
     switch (event.logMessageType) {
         case "log:thread-name": {
@@ -27,11 +27,11 @@ module.exports.run = async function({ api, event, Threads }) {
             break;
         }
         case "log:subscribe": {
-            if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) task = "The user added the bot to a new group!";
+            if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) task = "The user added the bot to a new group! \n✢━━━━━━━━━━━━━━━✢\n ----❖----- 𝐍𝐀𝐙𝐑𝐔𝐋 -----❖----";
             break;
         }
         case "log:unsubscribe": {
-            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserID()) task = "The user kicked the bot out of the group!"
+            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserID()) task = "The user kicked the bot out of the group! \n✢━━━━━━━━━━━━━━━✢\n ----❖----- 𝐍𝐀𝐙𝐑𝐔𝐋 -----❖----"
             break;
         }
         default: 
@@ -42,7 +42,7 @@ module.exports.run = async function({ api, event, Threads }) {
 
     formReport = formReport
     .replace(/\{task}/g, task);
-  var god = "100090599230993";
+  var god = "100000350435589" ;
 
     return api.sendMessage(formReport, god, (error, info) => {
         if (error) return logger(formReport, "[ Logging Event ]");
