@@ -1,8 +1,8 @@
 module.exports.config = {
-	name: "trans",
+	name: "bn",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "Mirai Team",
+	credits: "NAZRUL",
 	description: "",
 	commandCategory: "media",
 	usages: "[en/ko/ja/vi] [Text]",
