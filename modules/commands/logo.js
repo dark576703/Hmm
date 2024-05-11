@@ -1,4 +1,4 @@
-var hiro = "AYAN CHOWDHURY";
+var hiro = "NAZRUL ISLAM";
 const axios = require("axios");
 const request = require("request");
 const fs = require("fs-extra");
