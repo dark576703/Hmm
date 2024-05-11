@@ -2,7 +2,7 @@ module.exports.config = {
   name: 'font',
   version: '2.0.0',
   hasPermssion: 0,
-  credits: 'CHAND TRICKER',
+  credits: 'nazrul',
   description: 'Converts text into Bold Font',
   commandCategory: 'tools',
   usePrefix: true,
