@@ -8,7 +8,7 @@ module.exports.config = {
   name: "memberList",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Islamick Chat",
+  credits: "NAZRUL",
   description: "Displays a list of members in the group along with their Facebook IDs and group information.",
   prefix: true,
   commandCategory: "Tools",
