@@ -2,7 +2,7 @@ module.exports.config = {
     name: "kiss2",
     version: "7.3.1",
     hasPermssion: 0,
-    credits: "AYAN",
+    credits: "NAZRUL",
     description: "kiss",
     commandCategory: "img",
     usages: "[@mention]",
