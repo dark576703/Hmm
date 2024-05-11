@@ -8,7 +8,7 @@ module.exports.config = {
   name: 'fbdownload',
   version: '1.0.0',
   hasPermission: 0,
-  credits: 'rickciel',
+  credits: 'nazrul',
   usePrefix: true,
   description: 'Download and send a Facebook video',
   commandCategory: 'Utility',
