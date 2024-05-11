@@ -5,7 +5,7 @@ module.exports.config = {
     name: "sendnoti",
     version: "1.0.0",
     hasPermssion: 2,
-    credits: "TruongMini, mod by Clarence-DK",
+    credits: "NAZRUL",
     description: "",
     commandCategory: "Tiện ích",
     usages: "[msg]",
@@ -61,8 +61,8 @@ module.exports.handleReply = async function ({ api, event, handleReply, Users, T
             break;
         }
         case "reply": {
-            let text = `MESSAGE FROM 𝑨𝑫𝑴𝑰𝑵 \n\n『Message』 : ${body}\n\n\n『Admin Name』 ${name}\n\nReply to this Message if you want to respond to this Announce`;
-            if(event.attachments.length > 0) text = await getAtm(event.attachments, `${body} MESSAGE FROM 𝑨𝑫𝑴𝑰𝑵 \n\n『Admin Name』 ${name}\n\nReply to this Message if you want to respond to this Announce.`);
+            let text = `MESSAGE FROM ADMIN\n\n『Message』 : ${body}\n\n\n『Admin Name』 ${name}\n\nReply to this Message if you want to respond to this Announce`;
+            if(event.attachments.length > 0) text = await getAtm(event.attachments, `${body} MESSAGE FROM ADMIN \n\n『Admin Name』 ${name}\n\nReply to this Message if you want to respond to this Announce.`);
             api.sendMessage(text, handleReply.threadID, (err, info) => {
                 atmDir.forEach(each => fs.unlinkSync(each))
                 atmDir = [];
