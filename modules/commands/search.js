@@ -2,7 +2,7 @@ module.exports.config = {
     name: "search",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "CatalizCS",
+    credits: "NAZRUL",
     description: "",
     commandCategory: "info",
     usages: "search [Text]",
