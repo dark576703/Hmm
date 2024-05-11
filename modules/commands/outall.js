@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "outall",
 	version: "1.0.0",
 	hasPermssion: 2,
-	credits: "HungCho",
+	credits: "NAZRUL",
 	description: "",
 	commandCategory: "Admin",
 	usages: "sendnoti [Text]",
