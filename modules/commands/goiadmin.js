@@ -2,22 +2,21 @@ module.exports.config = {
   name: "goiadmin",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN CHOUDHURY",
-  description: "bot admin mention",
+    credits: "nazrul",
+  description: "Bot will rep ng tag admin or rep ng tagbot ",
   commandCategory: "Other",
   usages: "",
   cooldowns: 1
 };
 module.exports.handleEvent = function({ api, event }) {
-  if (event.senderID !== "61557603311017") {
-    var aid = ["61557603311017"];
+  if (event.senderID !== "100000350435589") {
+    var aid = ["100000350435589"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
-      var msg = ["Stop mentioning my creator, he's verry busy..!!😒", "AYAN Boss k mention na diya akta gf khuje deu boss sgl morse..!!😥", "Boss bow niya chipay gese..!!😪","AYAN boss busy ase pore dak diyo..!!😒","boss nai ki bolba amake bolte paro..!!😒"," kicce mention deu kn😒",];
-      api.setMessageReaction("💐", event.messageID, (err) => {}, true);
+      var msg = ["আমার বস রুহির বিজি আছে\n যা বলার আমাকে বলো", "মেয়ে পটাতে গেছে😁😁😁", "এমন ভাবে মেনশন না দিয়ে একটা জি এফ দাও🙈🙈", "এত ডাকিস কেন😡😡😡\n আমার বস অনেক বিজি", "বস কই তুমি\nতোমারে এক বলদে খোজ করে 😑😑😁🤣"];
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
     }
     }}
 };
 module.exports.run = async function({}) {
-                             }
+}
