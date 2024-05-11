@@ -19,13 +19,7 @@
 - [📸 **Screenshots**](#-screenshots)
 - [✨ **Copyright (C)**](#-copyright-c)
 - [📜 **License**](#-license)
-
-<div align="center">
-			<h3>My Replit Account ->
-			<a href="https://replit.com/@NAZRUL420" style="color: green;">@Ayanchoudhuri🔥</a>
-				<br>
-	My Facebook Account ->
-	<a href="https://www.facebook.com/profile.php?id=100090599230993&mibextid=kFxxJD" style="color: black;">Nazrul🚀</a></h3></div>
+ href="https://www.facebook.com/profile.php?id=100090599230993&mibextid=kFxxJD" style="color: black;">Nazrul ISLAM 🚀</a></h3></div>
 
 <img align="center" src="https://i.imgur.com/AkCns7z.jpeg"/>
 
