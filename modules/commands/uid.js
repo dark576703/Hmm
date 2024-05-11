@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "uid2",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "Mirai Team",
+	credits: "NAZRUL",
 	description: "",
 	commandCategory: "other",
 	cooldowns: 5
