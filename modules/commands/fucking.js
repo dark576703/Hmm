@@ -8,7 +8,7 @@ module.exports.config = {
   name: "infobox",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "AYAN",
+  credits: "nazrul",
   description: "Xem thông tin box của bạn",
   commandCategory: "messager group info",
   usages: "infobox",
