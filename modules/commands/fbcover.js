@@ -2,7 +2,7 @@ module.exports.config = {
 name: "covr",
 version: "1.0.0",
 hasPermssion: 0,
-credits: "Nazrul",
+credits: "nazrul",
 description: "Create a facebook cover photo",
 commandCategory: "game",
 cooldowns: 0,
