@@ -32,7 +32,7 @@ module.exports.config = {
     name: "song",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "D-Jukie",
+    credits: "NAZRUL",
     description: "Phát nhạc thông qua link YouTube hoặc từ khoá tìm kiếm",
     commandCategory: "tiện ích",
     usages: "[searchMusic]",
