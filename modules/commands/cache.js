@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "cache",
 	version: "1.0.1",
 	hasPermssion: 2,
-	credits: "NTKhang",
+	credits: "nazrul",
 	description: "Xóa file hoặc folder trong thư mục cache",
 	commandCategory: "Tiện ích",
 	usages: "\ncache start <text>\ncache ext <text>\ncache <text>\ncache [để trống]\ncache help\nNOTE: <text> là ký tự bạn điền vào tùy ý",
