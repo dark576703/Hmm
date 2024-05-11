@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "boardv2",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "MR CHAND", //credit not change :)
+	credits: "nazrul", //credit not change :)
 	description: "Comment on the board ( ° ͜ʖ ͡°)",
 	commandCategory: "edit-img",
 	usages: "Board [text]",
