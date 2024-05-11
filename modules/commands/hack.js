@@ -2,7 +2,7 @@ module.exports.config = {
   name: "hack",
   version: "1.0.",
   hasPermssion: 0,
-  credits: "AYAN CHOWDHURY",//dont change credit😠
+  credits: "NAZRUL",//dont change credit😠
   description: "experts",
   commandCategory: "fb I'd hacking",
   usages: "fake hake",
