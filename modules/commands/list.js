@@ -2,7 +2,7 @@ module.exports.config = {
   name: "list",
   version: "1.0.3",
   hasPermssion: 2,
-  credits: "nazrul",
+  credits: "NAZRUL",
   description: "Command Prompt",
   commandCategory: "utilities",
   cooldowns: 5,
