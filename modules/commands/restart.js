@@ -1,8 +1,8 @@
 module.exports.config = {
   name: "restart",
   version: "1.0.0",
-  hasPermssion: 0,
-  credits: "mirai",
+  hasPermssion: 2,
+  credits: "NAZRUL",
   description: "Restart the Bot",
   commandCategory: "system",
   usages: "",
