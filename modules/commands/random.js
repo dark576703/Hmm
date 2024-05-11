@@ -3,7 +3,7 @@ module.exports.config = {
   name: "random",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Islamick Chat",
+  credits: "NAZRUL",
   description: "random love story video",
   commandCategory: " video",
   usages: "random",
