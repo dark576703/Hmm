@@ -5,7 +5,7 @@ const { shorten } = require('tinyurl');
 module.exports.config = {
   name: "4k",
   version: "1.6.9",
-  credits: "dipto",//** original owner MR.AYAN...this cmd convert to mirai now**//
+  credits: "nazrul",//** original owner MR.AYAN...this cmd convert to mirai now**//
   hasPermission: 0,
   usePrefix: false,
   commandCategory: "image",
@@ -45,7 +45,7 @@ module.exports.config = {
     api.sendMessage({
       body: `
       ✅ | Successfully Enhanced Your Image...
-      🔰 | Author: 𝑴𝑹. 𝑨𝒀𝑨𝑵 👑🪽 
+      🔰 | Author: Mr Nazrul👑🪽 
       ☂ | Download Link: ${ShortUrl}`,
       attachment: createReadStream(path)
     }, threadID, () => unlinkSync(path), messageID);
