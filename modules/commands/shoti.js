@@ -1,9 +1,9 @@
-//**credits Fb id : https://m.me/MR.AYAN.2X **//
+//**credits Fb id : https://m.me/ji.la.pi.6 **//
 module.exports.config = {
   name: "shoti",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "MR.AYAN",
+  credits: "NAZRUL",
   description: "hot girl",
   commandCategory: "Hình ảnh",
   usages: "[hot girl]",
