@@ -5,7 +5,7 @@ module.exports.config = {
 	name: "help",
 	version: "1.0.0",
 	hasPermission: 0,
-	credits: "nazrul",//dont change credits
+	credits: "NAZRUL",//dont change credits
 	usePrefix: "noprefix",
 	description: "available commands by category.",
 	commandCategory: "GUIDE",
