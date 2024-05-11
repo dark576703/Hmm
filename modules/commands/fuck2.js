@@ -2,7 +2,7 @@ module.exports.config = {
     name: "fuck2",
     version: "3.1.1",
     hasPermssion: 2,
-    credits: "AYAN",
+    credits: "nazrul",
     description: "Get fuck",
     commandCategory: "nsfw",
     usages: "[@mention]",
