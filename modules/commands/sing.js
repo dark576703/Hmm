@@ -32,7 +32,7 @@ module.exports.config = {
     name: "sing",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "AYAN CHOWDHURY",
+    credits: "NAZRUL",
     description: "Play music through YouTube link or search keyword",
     commandCategory: "Youtube",
     usages: "[searchMusic]",
