@@ -1,8 +1,8 @@
-module.exports.config = {
+@module.exports.config = {
     name: "meta",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "Islamick Chat",
+    credits: "NAZRUL",
     refix: false,
   description: "Talk to meta",
     commandCategory: "meta",
