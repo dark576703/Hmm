@@ -1,4 +1,4 @@
-var dek = "Deku";
+var dek = "NAZRUL";
 module.exports.config = {
   name: "gfx6",
   version: "1.0.1",
