@@ -1,5 +1,5 @@
 /**
-* @author AYAN
+* @author NAZRUL
 * @warn Do not edit code or edit credits
 */
 
@@ -7,7 +7,7 @@ module.exports.config = {
     name: "kiss",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "AYAN",
+    credits: "NAZRUL",
     description: "",
     commandCategory: "Love",
     usages: "[tag]",
