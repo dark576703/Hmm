@@ -1,8 +1,8 @@
 module.exports.config = {
-	name: "oye",
+	name: "ডিলিট",
 	version: "1.0.0", 
-	hasPermssion: 0,
-	credits: "Mr Chand",
+	hasPermssion: 2,
+	credits: "NAZRUL",
 	description: "Delete Bot's messages",
 	commandCategory: "System", 
 	usages: "", 
