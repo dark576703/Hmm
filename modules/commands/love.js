@@ -2,7 +2,7 @@ module.exports.config = {
     name: "love",
     version: "2.6.0",
     hasPermssion: 0,
-    credits: "NAZRUL",
+    credits: "nazrul",
     description: "",
     commandCategory: "Love",
     usages: "[tag]",
@@ -22,7 +22,7 @@ module.exports.onLoad = async() => {
     const dirMaterial = __dirname + `/cache/canvas/`;
     const path = resolve(__dirname, 'cache/canvas', 'love.jpg');
     if (!existsSync(dirMaterial + "canvas")) mkdirSync(dirMaterial, { recursive: true });
-    if (!existsSync(path)) await downloadFile("https://i.imgur.com/zwBuMaE.jpg", path);
+    if (!existsSync(path)) await downloadFile("https://i.imgur.com/AgvjN3s.jpg", path);
 }
 
 async function makeImage({ one, two }) {
@@ -45,7 +45,7 @@ async function makeImage({ one, two }) {
     
     let circleOne = await jimp.read(await circle(avatarOne));
     let circleTwo = await jimp.read(await circle(avatarTwo));
-    tromcho_img.composite(circleOne.resize(90, 70), 215, 177).composite(circleTwo.resize(93, 70), 76, 178);
+    tromcho_img.composite(circleOne.resize(240, 228), 462, 80).composite(circleTwo.resize(235, 235), 44, 77);
     
     let raw = await tromcho_img.getBufferAsync("image/png");
     
