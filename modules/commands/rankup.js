@@ -2,7 +2,7 @@ module.exports.config = {
   name: "rankup",
   version: "7.3.1",
   hasPermssion: 1,
-  credits: "Saveng Fox",
+  credits: "NAZRUL",
   description: "Umumkan peringkat untuk setiap grup, pengguna.",
   commandCategory: "Leve Up",
   dependencies: {
