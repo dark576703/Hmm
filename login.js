@@ -1,7 +1,7 @@
 touconst fs = require("fs");
-const login = require("fca-jiser-main");
+const login = require("fca-priyansh");
 
-var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // credential information
+var credentials = {email: "msnur5767@gmail.com", password: "rtrrtr12"}; // credential information
 
 login(credentials, (err, api) => {
     if(err) return console.error(err);
